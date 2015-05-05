@@ -1,0 +1,53 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #09A;
+}
+
+.slide {
+	width: 100%;
+}
+
+.slide img {
+	width: 100%;
+}
+
+.wrapper { 
+	width: 960px;
+	margin: 0px auto;
+}
+
+#slider {
+	height: 500px;
+	overflow: hidden;
+}
+
+#Proximo, #Anterior{
+	border: 1px solid #EEE;
+	background: #09F;
+	color: #F2F2F2;
+	padding: 1em 2em;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.imagens {
+	border: 1px solid #C2C2C2;
+}
+
+.slide-de-imagens {
+	position: relative;
+}
+
+.legenda {
+	font-size: 15px;
+	bottom: -15px;
+	left: 0px;
+	position: absolute;
+	background: #000;
+	color: #F2F2F2;
+	width: 100%;
+	padding: 2em 0em;
+	opacity: .8;
+}
